@@ -1,0 +1,6 @@
+{
+  "name": "Single-layer-neural-network-with-pcawhitening-kmeans",
+  "tagline": "",
+  "body": "### Single Layer neural network  \r\nSingle Layer neural network's performence is not so good.  \r\nWhich have accuracy of 55% on CIFAR-10  \r\nHowever, with PCAwhintening and Kmeans, it can reach 75% on CIFAR-10  \r\n[Detailed report in here](https://github.com/yihui-he/Single-Layer-neural-network-with-PCAwhitening-Kmeans/blob/master/report/mp1_Yihui%20He.pdf)  \r\nreference:  \r\n[\"Analysis Single Layer Unsupervised Feature Learning\"](http://ai.stanford.edu/~ang/papers/nipsdlufl10-AnalysisSingleLayerUnsupervisedFeatureLearning.pdf)  \r\n#### How to run  \r\n1. Put cifar-10 dataset in ./dataset\r\n2. run python redo.py dataset\r\n\r\n#### files\r\nneural_net.py implement the neural net  \r\nredo.py implement preprocessing  \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
